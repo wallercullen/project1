@@ -58,6 +58,7 @@ h3 {
 p {
   margin-left: 10%;
   margin-bottom: 5%;
+  font-family: 'Open Sans', sans-serif;
   width: 70%;
 }
 
@@ -259,10 +260,4 @@ button.nav-link {
 
 #send {
   padding: 0px 5px 0px 5px;
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    color: black;
-  }
 }
