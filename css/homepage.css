@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans&display=swap&family=Manrope');
+
 body {
   color:rgb(153, 248, 228);
+  font-weight: lighter;
 }
 
 h1 {
@@ -16,6 +19,12 @@ h2 {
   font-weight: lighter;
   opacity: 1;
   border: none;
+  margin-left: 10%;
+}
+
+p {
+  margin-left: 10%;
+  width: 50%;
 }
 
 div {
@@ -28,8 +37,8 @@ div {
 
 #cow-background-1 {
   height: 100vh;
-  width: 100%;
   position: relative;
+  color: white;
 }
 
 #cow-background-1::before {
@@ -48,4 +57,11 @@ div {
 
 #cow-background-1 > h2 {
   position: relative;
+}
+
+#cow-background-1 > p {
+  margin-left: 15%;
+  margin-bottom: 5%;
+  width: 80%;
+  font-size: 18px;
 }
