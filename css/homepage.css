@@ -1,0 +1,51 @@
+body {
+  color:rgb(153, 248, 228);
+}
+
+h1 {
+  color:rgb(153, 248, 228);
+  font-size: 108px;
+  font-weight: lighter;
+  border: none;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: lighter;
+  opacity: 1;
+  border: none;
+}
+
+div {
+  padding: 30px;
+}
+
+.intro {
+  margin-bottom: 50vh;
+}
+
+#cow-background-1 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+#cow-background-1::before {
+  content: "";
+  background-image: url(/images/cow2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: 100% 100%;
+  opacity: 0.5;
+}
+
+#cow-background-1 > h2 {
+  position: relative;
+}

@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>
-      Something
-    </title>
+    <link rel='stylesheet' href='/css/styles.css'>
+    <link rel='stylesheet' href='/css/homepage.css'>
+    <title>Title</title>
   </head>
   <body>
-    <h1>Something</h1>
+    <header>
+      <nav aria-label='nav-name' class='sitename'>
+        <a class='nav-link' href='/index.html'>We Sell Milk!</a>
+      </nav>
+      <nav aria-label='nav-bar'>
+        <ul class='navbar'>
+          <li class='nav-item'><a class='nav-link' href='/index.html'>Home</a></li>
+          <li class='nav-item dropdown'>
+            <button class='nav-link'>
+              Blogs
+              <ul class='navbar'>
+                <li class='list-top'><a class='nav-link' href='https://blog.milkisreallyjustcowsauce.me/blog1.html'>Blog 1</a></li>
+                <li class='list-bottom'><a class='nav-link' href='https://blog.milkisreallyjustcowsauce.me/blog1.html'>Blog 2</a></li>
+              </ul>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class='flex-container-column intro'>
+      <h1 class='grid-row-column-start'>We Sell Milk</h1>
+      <p>Here at We Sell Milk we pride ourselves in our milk harvested exclusively from brown cows with white spots!
+        You can rest assured you will never ever drink a single drop of milk from white cows with brown spots when you
+        join the #milkgang. That's what makes We Sell Milk different.
+      </p>
+    </div>
+    <div id='cow-background-1'>
+      <h2><a class='nav-link' href='about.html' target='_blank'>About us</a></h2>
+    </div>
   </body>
 </html>
